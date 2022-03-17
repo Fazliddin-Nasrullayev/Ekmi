@@ -1,0 +1,38 @@
+.table__table {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.table__row {
+    padding: 50px 82px;
+    border: 1px solid #FF9619;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #343434;
+}
+
+.table__row1 {
+    border-left:none;
+    border-right:none;
+}
+
+
+
+.table__th1::after {
+    margin-left: 25px;
+    background-position: center ;
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('./../images/table-arrow.svg');
+    width: 33px;
+    height: 28px;
+}
+
+

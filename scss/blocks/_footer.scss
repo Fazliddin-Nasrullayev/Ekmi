@@ -1,0 +1,140 @@
+.footer {
+    margin-top: 300px;
+    padding-top: 80px;
+    background-color:#5B5B5B ;
+}
+
+.footer__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container:after {
+    position: absolute;
+    display: block;
+    content: '';
+    background-image: url('./../images/footer__ekmi.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:  right;
+    width: 364px;
+    height: 96px;
+    top: -173px;
+    right: 0;
+    padding-top: 60px;
+}
+
+.footer__list {
+    display: flex;
+    gap: 100px;
+}
+
+.footer__list__item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 80px;
+}
+
+
+.footer__tel__link {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__btn {
+    position: relative;
+    // max-width: 271px;
+    padding: 7px 40px 8px 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF9619;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.footer__btn:after {
+    right: 11px;
+    position: absolute;
+    display: block;
+    content: '';
+    background-image: url('./../images/footer-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+    width: 14.45px;
+    height: 12px;
+}
+
+
+
+
+
+.footer__link {
+    font-size: 13px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.16em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.footer__list__item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.footer__info {
+    justify-content: center;
+    margin-bottom: 29px;
+    margin-top: 80px;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+.footer__block {
+    display: flex;
+    align-items: center;
+    max-width: 70px;
+    justify-content: space-between;
+}
+
+.footer__top {
+    display: none;
+}

@@ -5,9 +5,433 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>SCSS STARTER</title>
+    <title>Ekmi</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="nav">
+                <a href="index" class="nav__link">Каталог</a>
+                <a href="index" class="nav__link">Индивидуальная мебель</a>
+                <a href="index" class="nav__link">Контакты</a>
+                <a href="index" class="nav__logo__link">
+                    <img  class="nav__logo__img" src="./images/header-logo.svg" alt="logo image ekmi" width="216" height="66">
+                </a>
+                <a href="index" class="nav__link">О компании</a>
+                <a href="tel:380996384537" class="nav__link1">
+                    <h4 class="nav__link__tel">+38 (099)-638-45-37</h4>
+                    <img  class="nav__link__icon" src="./images/Vector.svg" alt="tel image" width="21" height="21">
+                </a>
+                <select  class="nav__select" name="language" id="lang">
+                    <option value="russia">ru</option>
+                    <option value="british">uk</option>
+                    <option value="uzbekistan">uz</option>
+                </select>
+                <button class="hamburger__btn">
+                    <img src="./images/hamburger.svg" alt="hamburger image" class="hamburger__img" width="25" height="25">
+                </button>
+            </nav>
+        </div>
+    </header>
 
+    <section class="hero">
+        <div class="container hero__container">
+            <ul class="hero__list">
+                <li class="hero__list__item">
+                    <a href="" class="hero__link">
+                        <img  class="hero__img" src="./images/hero-1.png" alt="hero image" width="187" height="122">
+                        <h4 class="hero__title">Диваны</h4>
+                    </a>
+                </li>
+
+                <li class="hero__list__item">
+                    <a href="" class="hero__link">
+                        <img  class="hero__img" src="./images/hero-2.png" alt="hero image" width="120" height="122">
+                        <h4 class="hero__title">Стулья </h4>
+                    </a>
+                </li>
+
+                <li class="hero__list__item">
+                    <a href="" class="hero__link">
+                        <img  class="hero__img" src="./images/hero-3.png" alt="hero image" width="171" height="122">
+                        <h4 class="hero__title">Кресла </h4>
+                    </a>
+                </li>
+
+                <li class="hero__list__item">
+                    <a href="" class="hero__link">
+                        <img  class="hero__img" src="./images/hero-4.png" alt="hero image" width="175" height="122">
+                        <h4 class="hero__title">Кровати</h4>
+                    </a>
+                </li>
+
+                <li class="hero__list__item">
+                    <a href="" class="hero__link">
+                        <img  class="hero__img" src="./images/hero-5.png" alt="hero image" width="162" height="122">
+                        <h4 class="hero__title">Матрацы</h4>
+                    </a>
+                </li>
+
+                <li class="hero__list__item">
+                    <a href="" class="hero__link">
+                        <img  class="hero__img" src="./images/hero-6.png" alt="hero image" width="180" height="122">
+                        <h4 class="hero__title">пуфы</h4>
+                    </a>
+                </li>
+
+                <li class="hero__list__item">
+                    <a href="" class="hero__link">
+                        <img  class="hero__img" src="./images/hero-7.png" alt="hero image" width="156" height="122">
+                        <h4 class="hero__title hero__title1">Эксклюзивная  мебель </h4>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="hero__block">
+                <div class="hero__button">
+                    <select name="model" id="model" class="hero__block__select">
+                        <option value="model 2d">Все 2D-3D модели</option>
+                        <option value="model 3d">Все 1D-3D модели</option>
+                        <option value="model 1d">Все 2D-1D модели</option>
+                    </select>
+                    <div class="small__btn">
+                        <button class="small__btn__btn">
+                            <img  class="small__btn__img" src="./images/small-btn.svg" alt="small btn" width="45" height="10">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero__btn">
+                    <div class="select__btn">
+                        <button class="select__btn__btn">
+                            <img  class="select__btn__btn__img" src="./images/hero-btn-8.svg" alt="select btn" width="55" height="26">
+                        </button>
+                        <button class="select__btn__btn">
+                            <img  class="select__btn__btn__img" src="./images/hero-btn-4.svg" alt="select btn" width="55" height="26">
+                        </button>
+
+                    </div>
+
+                    <form action="https://echo.htmlacademy.ru" class="hero__form">
+                        <input type="text" class="hero__input" placeholder="Поиск">
+                        <img   class="form__img" alt="search image" src="./images/hero-search.svg">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="container product__container">
+            <ul class="product__list">
+                <li class="product__list_item product__list_item1">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/martin.png" alt="product image" width="267" height="176">
+                    <div class="product__block">
+                        <h3 class="product__title">Martin</h3>
+                        <p class="product__info">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item2">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/alba.png" alt="product image" width="270" height="245">
+                    <div class="product__block">
+                        <h3 class="product__title">Alba</h3>
+                        <p class="product__info">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item3">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/toscana.png" alt="product image" width="270" height="227">
+                    <div class="product__block">
+                        <h3 class="product__title">Toscana</h3>
+                        <p class="product__info">Кресло «Тоскана» компании «EKMI-мебель». Располагает для удобного времяпровождения.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item4">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/leonardo.png" alt="product image" width="267" height="176">
+                    <div class="product__block">
+                        <h3 class="product__title">Leonardo</h3>
+                        <p class="product__info">Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item5">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/boorbon.png" alt="product image" width="270" height="206">
+                    <div class="product__block">
+                        <h3 class="product__title">Boorbon</h3>
+                        <p class="product__info">Кресло «Тоскана» компании «EKMI-мебель». Располагает для удобного времяпровождения.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item6">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/emilio.png" alt="product image" width="259" height="170">
+                    <div class="product__block">
+                        <h3 class="product__title">Emilio</h3>
+                        <p class="product__info">Легкий, воздушный, невесомый… Диван «Арни», непроизвольно вызывающий ассоциацию с облаком,  буквально излучает уют. Объёмные  модули легко комбинируются между собой, создавая любимое место отдыха для всей семьи. Композиция может быть дополнена креслами и пуфами.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item7">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/nensi.png" alt="product image" width="252" height="166">
+                    <div class="product__block">
+                        <h3 class="product__title">Nensi</h3>
+                        <p class="product__info">Мягкие формы кровати «Ненси» создадут уют и комфорт в Вашей спальне.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item8">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/tatami.png" alt="product image" width="259" height="170">
+                    <div class="product__block">
+                        <h3 class="product__title">Tatami</h3>
+                        <p class="product__info">Легкий, воздушный, невесомый… Диван «Арни», непроизвольно вызывающий ассоциацию с облаком,  буквально излучает уют. Объёмные  модули легко комбинируются между собой, создавая любимое место отдыха для всей семьи. Композиция может быть дополнена креслами и пуфами.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item9">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/regina.png" alt="product image" width="267" height="176">
+                    <div class="product__block">
+                        <h3 class="product__title">Regina</h3>
+                        <p class="product__info">Легкий, воздушный, невесомый… Диван «Арни», непроизвольно вызывающий ассоциацию с облаком,  буквально излучает уют. Объёмные  модули легко комбинируются между собой, создавая любимое место отдыха для всей семьи. Композиция может быть дополнена креслами и пуфами.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item10">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/malta.png" alt="product image" width="270" height="209">
+                    <div class="product__block">
+                        <h3 class="product__title">Malta</h3>
+                        <p class="product__info">Двусторонний матрац МАЛЬТА без пружин – удачное сочетание жестокости и комфортности. Самый низкий матрац в нашей линейке.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item11">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/versal.png" alt="product image" width="267" height="196">
+                    <div class="product__block">
+                        <h3 class="product__title">Versal</h3>
+                        <p class="product__info">Мягкие формы кровати «Ненси» создадут уют и комфорт в Вашей спальне.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item12">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/exclusive1.png" alt="product image" width="253" height="166">
+                    <div class="product__block">
+                        <h3 class="product__title">Exclusive 1</h3>
+                        <p class="product__info">Мягкие формы кровати «Ненси» создадут уют и комфорт в Вашей спальне.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item13">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/floret.png" alt="product image" width="270" height="184">
+                    <div class="product__block">
+                        <h3 class="product__title">Floret</h3>
+                        <p class="product__info">Легкий, воздушный, невесомый… Диван «Арни», непроизвольно вызывающий ассоциацию с облаком,  буквально излучает уют. Объёмные  модули легко комбинируются между собой, создавая любимое место отдыха для всей семьи. Композиция может быть дополнена креслами и пуфами.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item14">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/bed.png" alt="product image" width="256" height="168">
+                    <div class="product__block">
+                        <h3 class="product__title">Exclusive bed 2</h3>
+                        <p class="product__info">Эксклюзивная мебель</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item15">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/arni.png" alt="product image" width="257" height="170">
+                    <div class="product__block">
+                        <h3 class="product__title">Arni</h3>
+                        <p class="product__info">Легкий, воздушный, невесомый… Диван «Арни», непроизвольно вызывающий ассоциацию с облаком,  буквально излучает уют. Объёмные  модули легко комбинируются между собой, создавая любимое место отдыха для всей семьи. Композиция может быть дополнена креслами и пуфами.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="product__list_item product__list_item16">
+                    <a href="#" class="product__list__item__link">
+                        <img  class="product__img" src="./images/taiti.png" alt="product image" width="267" height="194">
+                    <div class="product__block">
+                        <h3 class="product__title">Taiti</h3>
+                        <p class="product__info">Эксклюзивный матрац с ортопедическим эффектом без пружин. Самая жесткая, но при этом очень комфортная модель во всей линейке. Идеальный вариант для крупных людей.</p>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="product__button">
+                <button class="product__btn">
+                    
+                    <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 1L1 6.21739L7 11" stroke="#343434" stroke-opacity="0.5" stroke-width="0.5"/>
+                        </svg>
+                        
+
+                </button>
+                <button class="product__btn">
+                    
+                    <svg class="button__arrow" width="6" height="15" viewBox="0 0 6 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.77734 15H4.60547V2.1875L0.738281 3.62305V2.5293L5.58203 0.732422H5.77734V15Z" fill="#343434" fill-opacity="0.5"/>
+                        </svg>
+                        
+                </button>
+                <button class="product__btn">
+                    
+                    <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.6055 13.125V15H1.07422V13.3887L5.70312 8.33984C6.21094 7.76693 6.61133 7.27214 6.9043 6.85547C7.19727 6.4388 7.40234 6.06445 7.51953 5.73242C7.64323 5.39388 7.70508 5.0651 7.70508 4.74609C7.70508 4.29688 7.62044 3.90299 7.45117 3.56445C7.28841 3.2194 7.04753 2.94922 6.72852 2.75391C6.40951 2.55208 6.02214 2.45117 5.56641 2.45117C5.03906 2.45117 4.59635 2.5651 4.23828 2.79297C3.88021 3.02083 3.61003 3.33659 3.42773 3.74023C3.24544 4.13737 3.1543 4.5931 3.1543 5.10742H0.800781C0.800781 4.2806 0.989583 3.52539 1.36719 2.8418C1.74479 2.15169 2.29167 1.60482 3.00781 1.20117C3.72396 0.791016 4.58659 0.585938 5.5957 0.585938C6.54622 0.585938 7.35352 0.745443 8.01758 1.06445C8.68164 1.38346 9.1862 1.83594 9.53125 2.42188C9.88281 3.00781 10.0586 3.70117 10.0586 4.50195C10.0586 4.94466 9.98698 5.38411 9.84375 5.82031C9.70052 6.25651 9.49544 6.69271 9.22852 7.12891C8.9681 7.55859 8.65885 7.99154 8.30078 8.42773C7.94271 8.85742 7.54883 9.29362 7.11914 9.73633L4.04297 13.125H10.6055Z" fill="#343434"/>
+                        </svg>
+                        
+
+                </button>
+                <button class="product__btn">
+                    
+                    <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.94531 7.24609H5.13672C5.86589 7.24609 6.47461 7.1224 6.96289 6.875C7.45768 6.62109 7.82878 6.28581 8.07617 5.86914C8.33008 5.45247 8.45703 4.99023 8.45703 4.48242C8.45703 3.90951 8.34961 3.4082 8.13477 2.97852C7.91992 2.54232 7.59115 2.20378 7.14844 1.96289C6.71224 1.71549 6.15234 1.5918 5.46875 1.5918C4.86979 1.5918 4.33594 1.70898 3.86719 1.94336C3.39844 2.17773 3.02734 2.51302 2.75391 2.94922C2.48047 3.38542 2.34375 3.90625 2.34375 4.51172H1.18164C1.18164 3.73698 1.36719 3.05664 1.73828 2.4707C2.10938 1.87826 2.62044 1.41602 3.27148 1.08398C3.92253 0.751953 4.65495 0.585938 5.46875 0.585938C6.30859 0.585938 7.03776 0.738932 7.65625 1.04492C8.28125 1.35091 8.76302 1.79688 9.10156 2.38281C9.44661 2.96875 9.61914 3.68164 9.61914 4.52148C9.61914 4.95117 9.52474 5.37435 9.33594 5.79102C9.15365 6.20768 8.88021 6.58529 8.51562 6.92383C8.15104 7.25586 7.69857 7.52279 7.1582 7.72461C6.61784 7.92643 5.98958 8.02734 5.27344 8.02734H3.94531V7.24609ZM3.94531 8.25195V7.48047H5.27344C6.08724 7.48047 6.78385 7.57487 7.36328 7.76367C7.94271 7.94596 8.41797 8.20638 8.78906 8.54492C9.16667 8.87695 9.44336 9.26432 9.61914 9.70703C9.79492 10.1497 9.88281 10.625 9.88281 11.1328C9.88281 11.7839 9.77539 12.36 9.56055 12.8613C9.3457 13.3626 9.03971 13.7891 8.64258 14.1406C8.25195 14.4857 7.78971 14.7493 7.25586 14.9316C6.72852 15.1074 6.14909 15.1953 5.51758 15.1953C4.94466 15.1953 4.38477 15.1107 3.83789 14.9414C3.29753 14.7721 2.80924 14.5215 2.37305 14.1895C1.94336 13.8509 1.60156 13.4277 1.34766 12.9199C1.09375 12.4056 0.966797 11.8132 0.966797 11.1426H2.12891C2.12891 11.7415 2.27214 12.2721 2.55859 12.7344C2.84505 13.1901 3.24219 13.5482 3.75 13.8086C4.26432 14.0625 4.85352 14.1895 5.51758 14.1895C6.18815 14.1895 6.76107 14.0755 7.23633 13.8477C7.7181 13.6133 8.08594 13.2715 8.33984 12.8223C8.59375 12.373 8.7207 11.8229 8.7207 11.1719C8.7207 10.4883 8.56771 9.93164 8.26172 9.50195C7.96224 9.07227 7.54232 8.75651 7.00195 8.55469C6.4681 8.35286 5.84635 8.25195 5.13672 8.25195H3.94531Z" fill="#343434" fill-opacity="0.5"/>
+                        </svg>
+                        
+
+                </button>
+                <button class="product__btn">
+                    
+                    <svg class="button__arrow" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L7 6.21739L1 11" stroke="#343434" stroke-opacity="0.5" stroke-width="0.5"/>
+                        </svg>
+                        
+                </button>
+            </div>
+            <a href="#" class="button__link">
+                смотреть все
+            </a>
+        </div>
+    </section>
+
+    <section class="post">
+        <div class="container post__container">
+            <div class="post__block">
+                <h4 class="post__title">Заполните форму</h4>
+                <h2 class="post__heading">остались вопросы?</h2>
+                <form class="post__form" action="https://echo.htmlacademy.ru"  method="get">
+                    <input type="name" class="post__input" placeholder="Ваше имя*" >
+                    <input type="tel" class="post__input" placeholder="Ваш номер телефона*" >
+                    <input type="text" class="post__input" placeholder="Страна" >
+                    <input type="text" class="post__input" placeholder="Комментарий" >
+                    <div class="input__block">
+                        <input class="input__checkbox" type="checkbox" >
+                        <h4 class="checkbox__title">Подтверждая заказ, я принимаю условия пользовательского соглашения</h4>
+                    </div>
+
+                    <input type="submit" class="button__input" value="запросить звонок" >
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer__top">
+        <div class="container  footer__top__container">
+            <div class="footer__top__block">
+                <ul class="footer__top__list">
+                    <li class="footer__top__list__item">
+                        <a href="#" class="footer__link0">Каталог</a>  
+                        <a href="#" class="footer__link0">о компании</a>  
+                        <a href="#" class="footer__link0">Индивидуальная мебель</a>  
+                        <a href="#" class="footer__link0">Партнерам дизайнерам</a>  
+                    </li>
+
+                    <li class="footer__top__list__item">
+                        <a href="#" class="footer__link0">2D, 3D модели</a>  
+                        <a href="#" class="footer__link0">Шоу-румы</a>  
+                        <a href="#" class="footer__link0">Дилерам</a>  
+                        <a href="#" class="footer__link0">Контакты</a>  
+                        <a href="#" class="footer__link0">Конфигуратор</a> 
+                    </li>
+                </ul>
+                <a href="#" class="footer__btn0" >
+                    Персональная консультация
+                </a>
+
+                <div class="socials0">
+                    <div class="footer__block0">
+                        <a href="https://facebook.com" class="footer__social__img__link"><img  class="footer__social__img" src="./images/insta.svg" alt="footer social image" width="27" height="27"> </a>
+                       <a href="https://facebook.com" class="footer__social__img__link"> <img  class="footer__social__img" src="./images/face.svg" alt="footer social image" width="27" height="27"> </a>
+                    </div>
+                    <a href="tel:526354264" class="footer__tel__link">+38 (099)-638-45-37</a>
+                </div>
+                <a href="#" class="footer__top__link__logo">
+                    <img  class="footer__logo__top__img" src="./images/logo-w.svg" alt="footer logo image" width="170" height="56">
+                </a>
+
+                <p class="footer__info0">
+                    © 1993–2021 Интернет-магазин «EKMI™» — меблі
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container  footer__container">
+            <ul class="footer__list">
+                <li class="footer__list__item">
+                    <img  class="footer__logo__img" src="./images/logo-w.svg" alt="footer logo image" width="170" height="56">
+                </li>
+
+                <li class="footer__list__item">
+                  <a href="#" class="footer__link">Каталог</a>  
+                  <a href="#" class="footer__link">о компании</a>  
+                  <a href="#" class="footer__link">Индивидуальная мебель</a>  
+                  <a href="#" class="footer__link">Партнерам дизайнерам</a>  
+                </li>
+
+                <li class="footer__list__item">
+                  <a href="#" class="footer__link">2D, 3D модели</a>  
+                  <a href="#" class="footer__link">Шоу-румы</a>  
+                  <a href="#" class="footer__link">Дилерам</a>  
+                  <a href="#" class="footer__link">Контакты</a>  
+                  <a href="#" class="footer__link">Конфигуратор</a>  
+                    
+                </li>
+                
+
+                <li class="footer__list__item footer__list__item1">
+                    <div class="footer__block">
+                        <a href="https://facebook.com" class="footer__social__img__link"><img  class="footer__social__img" src="./images/insta.svg" alt="footer social image" width="27" height="27"> </a>
+                       <a href="https://facebook.com" class="footer__social__img__link"> <img  class="footer__social__img" src="./images/face.svg" alt="footer social image" width="27" height="27"> </a>
+                    </div>
+                    <a href="tel:526354264" class="footer__tel__link">+38 (099)-638-45-37</a>
+                    <a href="#" class="footer__btn" >
+                        Персональная консультация
+                    </a>
+                </li>
+            </ul>
+            <p class="footer__info">
+                © 1993–2021 Интернет-магазин «EKMI™» — меблі
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
+            <!-- <img  class="footer__btn__img" src="./images/footer-arrow.svg" alt="footer arrow image" width="14.45" height=""> -->

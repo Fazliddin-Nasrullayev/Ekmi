@@ -1,0 +1,9 @@
+.list  .container {
+    padding: 0;
+}
+.list__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 200px;
+}

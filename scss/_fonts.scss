@@ -1,1 +1,103 @@
-// FONTS.......
+/* open-sans-300 - cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: 
+         url('../fonts/open-sans-v28-cyrillic-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v28-cyrillic-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v28-cyrillic-300.ttf') format('truetype');
+  }
+  /* open-sans-600 - cyrillic */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: 
+         url('../fonts/open-sans-v28-cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v28-cyrillic-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v28-cyrillic-600.ttf') format('truetype');
+  }
+
+  /* raleway-300 - cyrillic */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: 
+         url('../fonts/raleway-v26-cyrillic-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-300.ttf') format('truetype');
+  }
+  /* raleway-regular - cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+         url('../fonts/raleway-v26-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-regular.ttf') format('truetype');
+  }
+  /* raleway-500 - cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: 
+         url('../fonts/raleway-v26-cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-500.ttf') format('truetype');
+  }
+  /* raleway-600 - cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: 
+         url('../fonts/raleway-v26-cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-600.ttf') format('truetype');
+  }
+  /* raleway-700 - cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: 
+         url('../fonts/raleway-v26-cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-700.ttf') format('truetype');
+  }
+  /* raleway-800 - cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    src: 
+         url('../fonts/raleway-v26-cyrillic-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-800.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-800.ttf') format('truetype');
+  }
+
+
+  /* roboto-300 - cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: 
+         url('../fonts/roboto-v29-cyrillic-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v29-cyrillic-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v29-cyrillic-300.ttf') format('truetype');
+  }
+  /* roboto-500 - cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src:
+         url('../fonts/roboto-v29-cyrillic-500.woff2') format('woff2'), 
+         url('../fonts/roboto-v29-cyrillic-500.woff') format('woff'), 
+         url('../fonts/roboto-v29-cyrillic-500.ttf') format('truetype');
+  }
