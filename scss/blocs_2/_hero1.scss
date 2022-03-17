@@ -63,3 +63,7 @@
     background-color: #FF9619;
 }
 
+.hero1__link:hover, .inform__link:hover, .button__input:hover  {
+    background-color: rgb(96, 125, 252);
+    transition: 0.3s;
+}

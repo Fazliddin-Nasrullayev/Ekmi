@@ -23,4 +23,4 @@ elModal_close.addEventListener('click',()=>{
     elModal_post.classList.toggle('kkklll');
 })
 
-alert('Assalomu aleykum Ustoz');
+// alert('Assalomu aleykum Ustoz');
