@@ -1,0 +1,136 @@
+.post {
+    margin-top: 160px;
+    background-color: #A9C2BE;
+}
+
+.post__container {
+    background-image: url('./../images/20000_Post.png');
+    background-size: 670px 578px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    max-width: 1167px;
+    padding: 26px 0 36px;
+}
+
+.post__block {
+    transform: translateX(600px);
+    max-width: 470px;
+    padding: 31px 49px 17px 50px;
+    background-color: #fff;
+    
+
+}
+
+.post__title {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF9619;
+}
+
+
+
+.post__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__input {
+    margin-bottom: 25px;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.post__input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #343434;
+    opacity: 0.5;
+}
+
+.input__block {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox__title {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #343434;
+    opacity: 0.5;
+}
+
+.input__checkbox[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border: 1px solid #D1D1D1;
+}
+
+.button__input {
+    margin-top: 29px;
+    margin-left: 73px;
+    width: 209px;
+    padding: 13px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF9619;
+    border: none;
+}
+
+.post__block:before {
+    display: inline-block;
+    content: '';
+    background-image: url('./../images/o.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 118px;
+    height: 131px;
+    position: absolute;
+    left: -78px;
+    top: -16px;
+
+}
+
+
+.post__heading {
+    min-width: 362px ;
+    margin: 15px 0 20px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 29px;
+    
+    text-transform: capitalize;
+    color: #343434;
+}
+
+.post1__span {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 103.9%;
+    text-transform: uppercase;
+    color: #343434;
+}
+
+.kkklll .post__block{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ height: 100vh; 
+ background: rgba(24, 24, 24, 0.7);
+backdrop-filter: blur(9px);  
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.kkklll .post__form{
+    background-color: #fff;
+}

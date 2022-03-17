@@ -1,0 +1,132 @@
+
+.inform {
+    margin-top: 160px;
+}
+
+
+
+.inform__wrapper {
+    max-width: 1169px;
+    max-height: 732px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+// .inform__inner__list {
+//     display: flex;
+//     flex-direction: column;
+//     // row-gap: 30px;
+// }
+
+.inform__inner__list:last-child {
+    margin-bottom: 30px;
+}
+
+.inform__inner__list__item {
+    margin-left: 70px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.inform__outer {
+    border: 1px solid rgba(52, 52, 52, 0.2);
+    border-top: none;
+}
+
+.inform__text {
+    width: 185px;
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 127.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #343434;
+}
+
+.inform__text:before {
+    display: block;
+    content: '';
+    background-image: url('./../images/ellipse.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center ;
+    width:  9px;
+    height: 9px ;
+    margin-right: 21px;
+
+}
+
+.inform__info {
+    max-width: 842px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 127.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #343434;
+}
+
+.inform__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inform__list__item {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    font-size: 16px;
+    line-height: 127.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #343434;
+}
+
+.inform__list__item0 {
+    padding-left: 106px;
+    padding-right: 106px;
+    border: 1px solid rgba(52, 52, 52, 0.2);
+    border-bottom: none;
+    border-left: none;
+}
+
+.inform__list__item1 {
+    padding-left: 102px;
+    padding-right: 102px;
+    border: 1px solid rgba(52, 52, 52, 0.2); 
+    border-left: none; 
+    border-right: none; 
+    background-color: #F2F3F5;
+}
+
+.inform__list__item2 {
+    padding-left: 73px;
+    padding-right: 73px;
+    border: 1px solid rgba(52, 52, 52, 0.2);
+    border-right: none;  
+    background-color: #F2F3F5;
+}
+
+
+.inform__link {
+    margin-top: 25px;
+    max-width: 342px;
+    padding: 15px 32px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF9619;
+}
+

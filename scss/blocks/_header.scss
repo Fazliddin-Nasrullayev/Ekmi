@@ -46,9 +46,138 @@
     color: #343434;
 }
 
-.hamburger__btn {
-    border: none;
-    display: none;
-    background-color: #ffffff;
+.nav__link:hover {
+    color: rgb(177, 165, 5);
 }
 
+.nav__link__tel:hover {
+    color: rgb(72, 106, 253);
+}
+
+.nav__list {
+    display: none;
+    padding: 30px;
+    padding-top: 18px;
+}
+.nav__list__item{
+    max-width: 188px;
+}
+.nav__list__item + .nav__list__item{
+    margin-top: 8px;
+}
+
+.nav__list__item__link{
+font-weight: 400;
+font-size: 17px;
+line-height: 135%;
+display: flex;
+align-items: center;
+color: #4B4844;
+&:hover{
+    color: orange;
+}
+}
+
+
+   .hamburger__btn {
+       display: none;
+       width: 25px;
+       height: 23px;
+        background-image: url('./../images/hamburger.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: none;
+        background-color: #fff;
+    }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .header > .container {
+        padding: 0px 18px 0;
+    }
+    
+    .header {
+        padding: 14px 0 30px;
+    }
+    
+    .nav {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hamburger__btn {
+        display: inline-block;
+    }
+
+    .nav__select {
+        order: -1;
+        background-color: #fff;
+    }
+    
+    
+    .nav__link {
+        display: none;
+
+    }
+
+    .nav__logo__link {
+        order: -2;
+    }
+    
+    .nav__logo__img {
+        width: 111px;
+        height: 34px;
+    }
+
+    .nav__select {
+        padding-right: 20px;
+        background-image: url('./../images/header-down-arrow.svg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center right;
+        appearance: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        color: rgba(52, 52, 52, 0.7);
+        border: none;
+    }
+    
+    .nav__link__tel {
+        display: none;
+
+    }
+
+    .nav__link__icon {
+        display: block;
+    }
+    
+    .header--open .hamburger__btn {
+        background-image: url('./../images/esc.svg');
+        z-index: 23;
+    }
+
+    .header--open .nav__list{
+        position: fixed;
+        top: 0;
+        right: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        display: inline-block;
+        background-color: #fff;
+    }
+
+
+    }
